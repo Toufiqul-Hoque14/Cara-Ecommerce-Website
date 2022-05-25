@@ -537,6 +537,41 @@ footer .copyright {
     text-align: center;
 }
 
+/* Shop Page */
+#page-header {
+    width: 100%;
+    height: 40vh;
+    background-image: url("images/banner/b1.jpg");
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-header h2,
+#page-header p {
+    color: white;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /* Starts Media Query */
 @media (max-width:799px) {
     .section-p1 {
